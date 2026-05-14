@@ -1,0 +1,17 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CURRENT_USER\Software\Classes\Directory\shell\OpenCMDHere]
+@="Open CMD here"
+"MUIVerb"="Open CMD here"
+"Icon"="C:\\Windows\\System32\\cmd.exe"
+
+[HKEY_CURRENT_USER\Software\Classes\Directory\shell\OpenCMDHere\command]
+@="\"C:\\Windows\\System32\\cmd.exe\" /K cd /D \"%1\""
+
+[HKEY_CURRENT_USER\Software\Classes\Directory\Background\shell\OpenCMDHere]
+@="Open CMD here"
+"MUIVerb"="Open CMD here"
+"Icon"="C:\\Windows\\System32\\cmd.exe"
+
+[HKEY_CURRENT_USER\Software\Classes\Directory\Background\shell\OpenCMDHere\command]
+@="\"C:\\Windows\\System32\\cmd.exe\" /K cd /D \"%V\""
